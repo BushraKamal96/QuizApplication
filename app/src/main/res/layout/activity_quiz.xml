@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bacpic"
+>
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/quizmarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marks :"
+            android:textSize="35sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/textquiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quizmarks"
+            android:gravity="center"
+            android:text="Your Quiz"
+            android:textSize="55dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/myquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textquiz"
+            android:layout_margin="13dp"
+            android:text="Questions"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/truebutton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginStart="31dp"
+            android:background="@drawable/button_round"
+            android:text="True"
+            android:layout_alignBaseline="@+id/falsebutton"
+            android:layout_alignBottom="@+id/falsebutton"
+            android:layout_alignStart="@+id/myquestion" />
+
+        <Button
+            android:id="@+id/falsebutton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/button_round"
+            android:text="False"
+            android:layout_above="@+id/nextbutton"
+            android:layout_toEndOf="@+id/truebutton"
+            android:layout_marginStart="45dp" />
+
+        <Button
+            android:id="@+id/nextbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/button_round"
+            android:gravity="center"
+            android:text="Next"
+            android:textSize="60sp"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

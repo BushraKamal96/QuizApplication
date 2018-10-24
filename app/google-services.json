@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "624724305378",
+    "firebase_url": "https://quizapp-c43e3.firebaseio.com",
+    "project_id": "quizapp-c43e3",
+    "storage_bucket": "quizapp-c43e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624724305378:android:1191445e528806f8",
+        "android_client_info": {
+          "package_name": "com.example.hafeez1.loginorsigninapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624724305378-r8tsvbcebv27do1rk8mmqmq9deagj17e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hafeez1.loginorsigninapplication",
+            "certificate_hash": "5c865a3a9cca19039ef2aa12a9c1759b1566aaca"
+          }
+        },
+        {
+          "client_id": "624724305378-dtbqp2vkaap5tb75rtfaq237obes7apk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIzyN_w3DtYhYj8BLJBqH28KtJMhW74SY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624724305378-dtbqp2vkaap5tb75rtfaq237obes7apk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

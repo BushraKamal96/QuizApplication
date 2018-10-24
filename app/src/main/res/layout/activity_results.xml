@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result"
+
+    >
+
+
+    <TextView
+        android:id="@+id/resulting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result "
+        android:textColor="#000000"
+        android:textSize="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/for_guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resulting"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/yourname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp"
+            android:textColor="#000000"
+
+            android:hint="Enter your name" />
+
+
+        <Button
+            android:id="@+id/donebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yourname"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_round"
+            android:text="done"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/finalpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" Your Points "
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+
+        />
+
+
+</RelativeLayout>
